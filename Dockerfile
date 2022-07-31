@@ -11,7 +11,7 @@
  WORKDIR boxfuse-sample-java-war-hello
  RUN mvn package -e
  WORKDIR target
-  RUN cp -r hello-1.0 /var/lib/tomcat9/webapps/
+#RUN cp -r hello-1.0 /var/lib/tomcat9/webapps/
  RUN cp hello-1.0.war /var/lib/tomcat9/webapps/
  RUN mkdir /usr/share/tomcat9/conf
  RUN ln -s /etc/tomcat9/server.xml /usr/share/tomcat9/conf/server.xml
