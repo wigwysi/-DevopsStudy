@@ -13,5 +13,6 @@
  RUN pwd
  RUN ls -la
  RUN mvn package -e
- RUN cp /target/hello-1.0 /var/lib/tomcat9/webapps/
+ WORKDIR target
+ RUN cp /hello-1.0 /var/lib/tomcat9/webapps/
  CMD [“catalina.sh”, “run”]
