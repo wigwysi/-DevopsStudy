@@ -14,5 +14,5 @@
  WORKDIR target
  RUN pwd
  RUN ls -la
- RUN cp hello-1.0/ /var/lib/tomcat9/webapps/
+ RUN cp hello-1.0 /var/lib/tomcat9/webapps/
  CMD [“catalina.sh”, “run”]
