@@ -1,8 +1,10 @@
  FROM ubuntu:20.04
  RUN apt update
  RUN apt install -y default-jdk
- RUN apt install -y tomcat9
-  RUN apt install -y maven
+ RUN cd /etc/tmp
+ RUN mkdir 
+ wget  https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.tar.gz"
+ RUN apt install -y maven
  RUN apt install -y git
  RUN cd /etc/
  RUN mkdir projects
