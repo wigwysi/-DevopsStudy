@@ -17,10 +17,11 @@ services:
       - javabin:/usr/java
   
   appdata:
-    image: ubuntu:20.04
-    command: apt update
-    command: apt install -y git
-    build: https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+    #image: ubuntu:20.04
+    #command: apt update
+    #command: apt install -y git
+    build:
+      context: https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
     volumes:
       - warloc:/etc/project  
 volumes:
