@@ -21,7 +21,7 @@ services:
     command: apt install -y wget
     command: wget https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
     volumes:
-      -warloc:/etc/project  
+      - warloc:/etc/project  
 volumes:
   javabin:
   warloc:
