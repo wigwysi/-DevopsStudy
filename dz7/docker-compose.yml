@@ -3,6 +3,8 @@ version: "3.9"
 services:
   devjava:
     image: maven:3.8.6-openjdk-11
+    depends_on:
+      - appdata
     command: mvn install
     volumes:
       - javabin:/opt/java/openjdk
@@ -13,6 +15,14 @@ services:
       - devjava
     volumes:
       - javabin:/usr/java
+  
+  appdata:
+    image: ubuntu:20.04
+    command: apt install -y wget
+    command: wget https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+    volumes:
+      -warloc:/etc/project  
 volumes:
   javabin:
+  warloc:
 ---
