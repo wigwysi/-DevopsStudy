@@ -20,7 +20,7 @@ services:
     image: ubuntu:20.04
     #command: apt update
     command: 
-      - bash-c "apt update && apt install git -y && ssh-keyscan -t rsa github.com > ~/.ssh/known_hosts && git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git"
+      - bash-c "apt update && apt install -y git -y && ssh-keyscan -t rsa github.com > ~/.ssh/known_hosts && git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git /etc"
     volumes:
       - warloc:/etc/project  
 volumes:
