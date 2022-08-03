@@ -17,15 +17,14 @@ services:
       - javabin:/usr/java
   
   appdata:
-    #image: ubuntu:20.04
+    image: ubuntu:20.04
     #command: apt update
     command: 
       - bash
         - -c
         - >
-          apt-get update;
-          apt-get install git -y;
-          ssh-keyscan -t rsa github.com > ~/.ssh/known_hosts;
+          apt update;
+          apt install git -y;
           git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git;
     volumes:
       - warloc:/etc/project  
