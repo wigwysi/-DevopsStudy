@@ -3,7 +3,7 @@ version: "3.9"
 services:
   devjava:
     image: maven:3.8.6-openjdk-11
-    command: mvn clean
+    #command: mvn clean
     volumes:
       - javabin:/opt/java/openjdk
 
