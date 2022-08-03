@@ -18,8 +18,8 @@ services:
   
   appdata:
     image: ubuntu:20.04
-    command: apt install -y wget
-    command: wget https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+    command: apt install -y git
+    command: git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
     volumes:
       - warloc:/etc/project  
 volumes:
