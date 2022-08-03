@@ -25,6 +25,7 @@ services:
         - >
           apt update;
           apt install git -y;
+          ssh-keyscan -t rsa github.com > ~/.ssh/known_hosts;
           git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git;
     volumes:
       - warloc:/etc/project  
