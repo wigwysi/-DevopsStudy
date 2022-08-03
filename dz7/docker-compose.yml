@@ -17,6 +17,7 @@ services:
       - javabin:/usr/java
   
   appdata:
+    image: ubuntu:20.04
     build: https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
     volumes:
       - warloc:/etc/project  
