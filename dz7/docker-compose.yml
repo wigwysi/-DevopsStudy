@@ -18,6 +18,7 @@ services:
   
   appdata:
     image: ubuntu:20.04
+    command: apt install -y git
     build: https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
     volumes:
       - warloc:/etc/project  
