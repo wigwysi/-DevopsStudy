@@ -12,9 +12,7 @@ services:
   appdata:
     build: ./dockerfiles   
     volumes:
-      - javabin:/opt/java/openjdk
       - warloc:/etc/projects/boxfuse-sample-java-war-hello/target  
 volumes:
-  javabin:
   warloc:
 ---
