@@ -1,28 +1,20 @@
 ---
 version: "3.9"
 services:
-  devjava:
-    image: maven:3.8.6-openjdk-11
-    depends_on:
-      - appdata
-    command: mvn install
-    volumes:
-      - javabin:/opt/java/openjdk
-
   web:
     image: tomcat:latest
     depends_on:
-      - devjava
+      - appdata
+    ports:
+      - "80:8080"
     volumes:
       - javabin:/usr/java
-  
+      - warloc:/usr/local/tomcat/webapps/
   appdata:
-    image: ubuntu:20.04
-    #command: apt update
-    command: 
-      - bash-c "apt update && apt install -y git -y && ssh-keyscan -t rsa github.com > ~/.ssh/known_hosts && git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git /etc"
+    build: ./dockerfiles   
     volumes:
-      - warloc:/etc/project  
+      - javabin:/opt/java/openjdk
+      - warloc:/etc/projects/boxfuse-sample-java-war-hello/target  
 volumes:
   javabin:
   warloc:
