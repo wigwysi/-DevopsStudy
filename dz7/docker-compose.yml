@@ -2,14 +2,13 @@
 version: "3.9"
 services:
   web:
-    image: tomcat:latest
+    image: tomcat:9.0.20-jre8-alpine
     depends_on:
       - appdata
     ports:
       - "80:8080"
     volumes:
-      - javabin:/usr/java
-      - warloc:/usr/local/tomcat/webapps/
+      - warloc:/usr/local/tomcat/webapps:ro
   appdata:
     build: ./dockerfiles   
     volumes:
