@@ -15,4 +15,3 @@ services:
       - warloc:/etc/projects/boxfuse-sample-java-war-hello/target  
 volumes:
   warloc:
----
