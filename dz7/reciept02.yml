@@ -36,3 +36,17 @@
 
   - name: Maven compile project
     command: mvn -f /etc/workbench/pom.xml package
+
+  - name: Transfer file from workbench to local
+    synchronize:
+      src: /etc/workbench/target/hello-1.0.war 
+      dest: /home/student/workbench
+      mode: pull
+    delegate_to: localhost
+
+  - name: Transfer file from local to prod
+    synchronize:
+      src: /home/student/workbench/hello-1.0.war
+      dest: rsync://62.84.113.218/var/lib/tomcat9/webapps/
+      mode: push
+    delegate_to: localhost
