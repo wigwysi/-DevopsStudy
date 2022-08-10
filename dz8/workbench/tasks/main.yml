@@ -1,2 +1,22 @@
 ---
 # tasks file for workbench
+- name: Ensure needed packages presetn
+  apt: name="{{item}}" state=present
+  with_items:
+    - default-jdk
+    - maven
+    - git
+
+- name: Git pull project
+  git: repo="{{git_project_path}}" dest="{{project_folder}}"
+
+- name: Maven compile project
+  command: mvn -f "{{project_folder}}"/pom.xml package
+
+- name: Transfer file from workbench to local
+    synchronize:
+      src: "{{project_folder}}"/target/*.war 
+      dest: "{{path_on_prod}}"
+      mode: pull
+    delegate_to: "{{prod}}" #var_from_ansible_hosts_cfg
+  

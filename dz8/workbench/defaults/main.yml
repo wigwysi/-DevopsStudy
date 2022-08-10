@@ -1,2 +1,5 @@
 ---
 # defaults file for workbench
+git_project_path: https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+project_folder: /etc/workbench
+path_on_prod: /var/lib/tomcat9/webapps/
