@@ -1,0 +1,10 @@
+---
+- name: install many packages
+  apt: name= {{item}} state=installed
+  with_items:
+    - tree
+    - mc
+    - htop
+    - ncdu
+    - links
+# tasks file for common

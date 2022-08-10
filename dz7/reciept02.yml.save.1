@@ -1,0 +1,52 @@
+---
+- name: Install tomcat
+  hosts: prod
+  become: yes
+
+  tasks:
+  - name: Ensure tomcat package is present
+    apt:
+      name: tomcat9
+      state: present
+
+- name: Install workbench
+  hosts: workbench
+  become: yes
+
+  tasks:
+  - name: Ensure default-jdk package present
+    apt:
+      name: default-jdk
+      state: present
+
+  - name: Ensure maven package present
+    apt:
+      name: maven
+      state: present
+
+  - name: Ensure git present
+    apt:
+      name: git
+      state: present
+
+  - name: Git pull project
+    git:
+      repo: https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+      dest: /etc/workbench
+
+  - name: Maven compile project
+    command: mvn -f /etc/workbench/pom.xml package
+
+  - name: Transfer file from workbench to local
+    synchronize:
+      src: /etc/workbench/target/hello-1.0.war 
+      dest: /home/student/workbench
+      mode: pull
+    delegate_to: localhost
+
+  - name: Transfer file from local to prod
+    synchronize:
+      src: /home/student/workbench/hello-1.0.war
+      dest: /var/lib/tomcat9/webapps/
+      mode: push
+    delegate_to: localhos
