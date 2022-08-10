@@ -1,0 +1,1000 @@
+   27  git clone git@github.com:wigwysi/-DevopsStudy.git
+   28  exit
+   29  cd //
+   30  ll
+   31  cd root/
+   32  ll
+   33  cd .ssh/
+   34  ll\
+   35  ll
+   36  cp /home/student/.ssh/id_rsa  /root/.ssh/
+   37  ll
+   38  chmod  700 id_rsa 
+   39  ll
+   40  apt install mc
+   41  mc
+   42  ll
+   43  cd /home/
+   44  cd student/
+   45  ll
+   46  cd dockerfiles/
+   47  git remote add origin https://github.com/wigwysi/-DevopsStudy.git
+   48  git remote add origin git@github.com:wigwysi/-DevopsStudy.git
+   49  git init
+   50  git remote add origin git@github.com:wigwysi/-DevopsStudy.git
+   51  ll
+   52  git pull
+   53  ll
+   54  cd -DevopsStudy/
+   55  cd "-DevopsStudy/"
+   56  cd "-DevopsStudy"
+   57  cd '-DevopsStudy'
+   58  mc
+   59  git pull
+   60  git status
+   61  git commit
+   62  git commit -M new
+   63  git commit -m new
+   64  git commit -m "new"
+   65  git status
+   66  git add
+   67  git add .
+   68  git commit -m "new"
+   69  git status
+   70  ll
+   71  cd DevopsStudy/
+   72  ll
+   73  git pull
+   74  ll
+   75  cd ..
+   76  ll
+   77  cd DevopsStudy/
+   78  ll
+   79  git pull
+   80  ll
+   81  cd Dockerfile 
+   82  ll
+   83  cd ..
+   84  ll
+   85  cd DevopsStudy/
+   86  ll
+   87  cd Dockerfile 
+   88  cat Dockerfile 
+   89  exit
+   90  passwd student
+   91  ll
+   92  ps
+   93  top
+   94  ps
+   95  ps -a\
+   96  ps -a
+   97  docker ps
+   98  ll
+   99  docker ps
+  100  cd /var/lib/tomcat9/webapps/
+  101  ll
+  102  docker logs /var/lib/tomcat9/webapps/
+  103  docker logs f3de324aa112
+  104  /usr/share/tomcat9/bin/catalina.sh configtest
+  105  /usr/share/tomcat9/bin/catalina.sh 
+  106  java -version
+  107  ll
+  108  ll
+  109  cd dockerfiles/
+  110  ll
+  111  git pull
+  112  ll
+  113  cd DevopsStudy/
+  114  ll
+  115  cat Dockerfile 
+  116  docker build -t boxfuse .
+  117  docker ps
+  118  git pull
+  119  ll
+  120  cat Dockerfile 
+  121  docker build -t boxfuse .
+  122  docket image
+  123  docker image
+  124  docker imahe ls
+  125  docker image ls
+  126  docker build -t boxfuse .
+  127  docker image
+  128  docker image build
+  129  docker image build .
+  130  docker image build .cd /etc/
+  131  cd /etc
+  132  ll
+  133  mkdir  test
+  134  cd test/
+  135  git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+  136  ll
+  137  cd boxfuse-sample-java-war-hello/
+  138  ll
+  139  apt insall maven
+  140  apt install maven
+  141  apt install default-jdk
+  142  ll
+  143  cd target/
+  144  ll
+  145  git pull
+  146  cd /home/student/dockerfiles/
+  147  ll
+  148  cd DevopsStudy/
+  149  ll
+  150  git pull
+  151  cat Dockerfile 
+  152  docker image build .
+  153  git pull
+  154  docker image build .
+  155  cd /etc/
+  156  mkdir test
+  157  git pull
+  158  cd /home/student/dockerfiles/
+  159  git pull
+  160  ll
+  161  cd DevopsStudy/
+  162  ll
+  163  git pull
+  164  docker image build .
+  165  git pull
+  166  docker image build .
+  167  ls -la
+  168  git pull
+  169  docker image build .
+  170  cd ..
+  171  git pull
+  172  docker image build .
+  173  LL
+  174  ll
+  175  cd DevopsStudy/
+  176  ll
+  177  git pull
+  178  docker image build .
+  179  git pull
+  180  docker image build .
+  181  git pull
+  182  docker image build .
+  183  git pull
+  184  docker image build .
+  185  cd /etc/test/
+  186  ll
+  187  cd boxfuse-sample-java-war-hello/
+  188  cp
+  189  cp ll
+  190  ll
+  191  cd /home/student/dockerfiles/DevopsStudy/
+  192  git pull
+  193  docker image build .
+  194  git pull
+  195  docker image build .
+  196  git pull
+  197  docker image build .
+  198  cd /etc/test/boxfuse-sample-java-war-hello/
+  199  ls
+  200  cd target/
+  201  ll
+  202  apt install tomact9
+  203  apt install tomcat9
+  204  cp hello-1.0 /var/lib/tomcat9/webapps/
+  205  cp -r hello-1.0  /var/lib/tomcat9/webapps/ 
+  206  cd 
+  207  cd /var/lib/tomcat9/webapps/
+  208  ll
+  209  cd hello-1.0/
+  210  ll
+  211  cd /etc/test/boxfuse-sample-java-war-hello/
+  212  ll
+  213  cd target/
+  214  ll
+  215  cp  hello-1.0.war  /var/lib/tomcat9/webapps/ 
+  216  cd /home/student/dockerfiles/DevopsStudy/
+  217  git pull
+  218  docker image build .
+  219  docker -ps
+  220  docker ps
+  221  docker build -t boxfuse
+  222  docker build -t boxfuse .
+  223  docker ps
+  224  docker images
+  225  df
+  226  docker run -d  -p 80:80 boxfuse
+  227  docker ps
+  228  docker run -d  -p 80:8080 boxfuse
+  229  docker ps
+  230  docker run -d  -p 8080:80 boxfuse
+  231  docker run -d  -p 80:8080 boxfuse
+  232  docker ps
+  233  git pull
+  234  docker build -t boxfuse .
+  235  docker images
+  236  docker run -d  -p 80:8080 boxfuse
+  237  docker ps
+  238  docker run  -p 80:8080 boxfuse
+  239  cd /bin
+  240  ls
+  241  docker ps
+  242  docker logs
+  243  docker run -d  -p 80:8080 boxfuse
+  244  docker logs 871358cf34a1a49e6c9513bde270f234bfac74991e74de6bde945f0304c5197d
+  245  docker logs 871358cf34a1a49e6c9513bde270f234bfac74991e74de6bde945f0304c5197dbin/sh: 1: [“catalina.sh”,: not found
+  246  cd /home/student/dockerfiles/DevopsStudy/
+  247  git pull 
+  248  docker build -t boxfuse .
+  249  docker run -d  -p 80:8080 boxfuse
+  250  docker ps
+  251  docker images
+  252  docker run -d  -p 80:8080 boxfuse
+  253  cd /usr/local/
+  254  ll
+  255  cd etc/
+  256  ll
+  257  cd //
+  258  find -f tomcat
+  259  find  tomcat
+  260  find -r  tomcat
+  261   find
+  262  find -d  tomcat
+  263  find -depth  tomcat
+  264  find -depth  /tomcat
+  265  find -depth  *tomcat*
+  266  top
+  267  find -depth  *tomcat*
+  268  cd /usr/local/
+  269  ll
+  270  cd bin/
+  271  ll
+  272  llls
+  273  ls
+  274  cd lib
+  275  cd /lib
+  276  ll
+  277  cd /home/student//dockerfiles/DevopsStudy/
+  278  git pull
+  279  docker build -t boxfuse .
+  280  docker run -d  -p 80:8080 boxfuse
+  281  docker images
+  282  docker run -d  -p 80:8080 boxfuse
+  283  docker lpgs 8af01935c084b6a796494b7d8472cf6903e4a445d4afa972282c849b4e796c0a
+  284  docker logs 8af01935c084b6a796494b7d8472cf6903e4a445d4afa972282c849b4e796c0a
+  285  cd ..
+  286  cd \\
+  287  cd //
+  288  fidn -d catalina.sh
+  289  find -depth catalina.sh
+  290  amn find
+  291  man find
+  292  find -depth -name catalina.sh
+  293  cd /home/student/dockerfiles/DevopsStudy/
+  294  git pull
+  295  docker build -t boxfuse .
+  296  docker run -d  -p 80:8080 boxfuse
+  297  docker ps
+  298  git pull
+  299  docker build -t boxfuse .
+  300  docker run   -p 80:8080 boxfuse
+  301  docker ps
+  302  docker run -d  -p 80:8080 boxfuse
+  303  docker logs 3ba13bae3e89a1f0aa690ddfe3af2af809160a27ca488f5cef8e98c922eced33
+  304  docker ps
+  305  docker run -d  -p 80:8080 boxfuse
+  306  docker run -d  -p 80:8080 boxfuse /bin/bash
+  307  docker run -p 80:8080 boxfuse /bin/bash
+  308  docker logs 3ba13bae3e89a1f0aa690ddfe3af2af809160a27ca488f5cef8e98c922eced33
+  309  docker ps
+  310  docker logs 
+  311  docker logs  --detailed
+  312  docker logs  --help
+  313  git pull
+  314  docker build -t boxfuse .
+  315  docker run -p 80:8080 boxfuse /bin/bash
+  316  docker run -p 80:8080 boxfuse 
+  317  whoami
+  318  ll 
+  319  docker run -it -rm -p 80:8080 boxfuse bash
+  320  docker run -it --rm -p 80:8080 boxfuse bash
+  321  docker ps
+  322  docker run -p 80:8080 boxfuse 
+  323  cd /etc/
+  324  ll
+  325  cd /var/lib/tomcat9/webapps/
+  326  ll
+  327  /home/student/dockerfiles/DevopsStudy/
+  328  git pull
+  329  cd /home/student/dockerfiles/DevopsStudy/
+  330  git pull
+  331  docker build -t boxfuse .
+  332  docker run -it --rm -p 80:8080 boxfuse bash
+  333  docker pull
+  334  ll
+  335  git pull
+  336  docker build -t boxfuse .
+  337  docker -d run -p 80:8080 boxfuse
+  338  docker run -d-p 80:8080 boxfuse
+  339  docker run -p 80:8080 boxfuse
+  340  git pull
+  341  docker build -t boxfuse .
+  342  docker run -p 80:8080 boxfuse
+  343  docker run -d -p 80:8080 boxfuse
+  344  docker ps
+  345  docker logs 050a4d3f4027cabb163c633d26a889524c3e5aabaaff9132aeb1f8d30dcdd922
+  346  cleat
+  347  clear
+  348  docker run -d -p 80:8080 boxfuse
+  349  docker logs 050a4d3f4027cabb163c633d26a889524c3e5aabaaff9132aeb1f8d30dcdd922
+  350  docker run -it --rm -p 80:8080 boxfuse bash
+  351  clear
+  352  git pull
+  353  docker build -t boxfuse .
+  354  docker run -d -p 80:8080 boxfuse
+  355  docker -ps
+  356  docker ps
+  357  docker stop fdcc21328f40
+  358  docker ps
+  359  git pull
+  360  docker build -t boxfuse .
+  361  docker run -d -p 80:8080 boxfuse
+  362  docker ps
+  363  cd /var/lib/tomcat9/
+  364  cd webapps/
+  365  ll
+  366  rm -f hello-1.0
+  367  rm -rf hello-1.0
+  368  rm -rf hello-1.0.war 
+  369  ll
+  370  rm -f hello-1.0.war 
+  371  rm -f hello-1.0
+  372  ll
+  373  cd /home/student/
+  374  ll
+  375  cd dockerfiles/
+  376  ll
+  377  cd /etc/
+  378  ll
+  379  cd test/
+  380  ll
+  381  cd boxfuse-sample-java-war-hello/
+  382  ll
+  383  cp cp hello-1.0 /var/lib/tomcat9/webapps/
+  384  cd target/
+  385  cp hello-1.0.war /var/lib/tomcat9/webapps/
+  386  cd /var/lib/tomcat9/webapps/ 
+  387  ll
+  388  docker -ps
+  389  docker ps
+  390  docker exec e7ad52a76dcc /bin/bash
+  391  docker exec -it e7ad52a76dcc /bin/bash
+  392  ll
+  393  cd ROOT/
+  394  ll
+  395  cat index.html 
+  396  cd ..
+  397  ll
+  398  cd hello-1.0
+  399  ll
+  400  docker exec -it e7ad52a76dcc /bin/bash
+  401  cd /usr/share/tomcat9/bin
+  402  ./catalina.sh  version
+  403  $CATALINA_HOME
+  404  echo $CATALINA_HOME
+  405  echo "$CATALINA_HOME"
+  406  ll
+  407  cd /var/
+  408  cd /var/local/
+  409  ll
+  410  cd  /var/lib/tomcat9/webapps/ 
+  411  ll
+  412  cd ..
+  413  ll
+  414  docker -ps
+  415  docker ps
+  416  docker -it e7ad52a76dcc exec bash
+  417  docker exec -it e7ad52a76dcc /bin/bash
+  418  man mkdir
+  419  docker -it e7ad52a76dcc exec bash
+  420  docker exec -it e7ad52a76dcc /bin/bash
+  421  env
+  422  declare
+  423  env
+  424  history
+  425  ll
+  426  cd dockerfiles/
+  427  cd D
+  428  cd DevopsStudy/
+  429  ll
+  430  cp Dockerfile dockerdileTest1 
+  431  ll
+  432  mv dockerdileTest1 dockerfile01 
+  433  ll
+  434  nano dockerfile01 
+  435  apt-cache search openjdk
+  436  nano dockerfile01 
+  437  ll
+  438  docker build -t boxfuse -f dockerfile01 
+  439  clear
+  440  docker build -t boxf dockerfile01 
+  441  docker build -t boxfuse -f dockerfile01 
+  442  clear
+  443  docker build -t boxfuse -<dockerfile01 
+  444  nano dockerfile01 
+  445  docker build -t boxfuse -<dockerfile01 
+  446  history
+  447  nano dockerfile01 
+  448  history
+  449  docker build -t boxfuse -<dockerfile01 
+  450  docker ps
+  451  clear
+  452  history
+  453  docker run -d -p 80:8080 boxfuse
+  454  docker ps
+  455  docker logs
+  456  docker run -d -p 80:8080 boxfuse
+  457  docker logs 8dc3c9bf34ce64f43176608d0fc0986910da41e443b4c1cb3d69f78a80d9369a
+  458  nano dockerfile01 
+  459  docker build -t boxfuse -<dockerfile01 
+  460  docker run -d -p 80:8080 boxfuse
+  461  docker ps
+  462  docker logs 2d5e30e20bf2a0592132cd4e45fce12d45b36139e50157dcbe894e111cec7644dc3c9bf34ce64f43176608d0fc0986910da41e443b4c1cb3d69f78a80d9369a
+  463  docker run -d -p 80:8080 boxfuse
+  464  docker logs 27fca64dc0e2fe0b8e6cdf2b12e1fbd5f1e2f6d707e7c759c759a3df84b27282
+  465  history
+  466  docker run -it --rm -p 80:8080 boxfuse bash
+  467  docker ps
+  468  nano dockerfile01 
+  469  docker build -t boxfuse -<dockerfile01 
+  470  docker ps
+  471  docker run -d -p 80:8080 boxfuse
+  472  docker ps
+  473  clear
+  474  docker ps
+  475  history
+  476  nano dockerfile01 
+  477  docker ps
+  478  docker exec -it e70d8f6ad843d6 /bin/bash
+  479  docker exec -it 0d8f6ad843d6 /bin/bash
+  480  nano dockerfile01 
+  481  docker ps
+  482  history
+  483  docker ps
+  484  docker 0d8f6ad843d6 stop
+  485  docker stop 0d8f6ad843d6 
+  486  docker ps
+  487  docker images
+  488  docker images --filter "dangling=true"
+  489  docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+  490  docker container prune
+  491  docker ps
+  492  docker images
+  493  docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+  494  docker ps
+  495  docker images
+  496  docker build -t boxfuse -<dockerfile01 
+  497  history
+  498  docker run -d -p 80:8080 boxfuse
+  499  docker ps
+  500  docker exec -it d83d76d91337 /bin/bash
+  501  ll
+  502  nestat -tlpn
+  503  apt install net-tools
+  504  netstat -tlpn
+  505  nano dockerfile01 
+  506  docker ps -o
+  507  docker ps 
+  508  git status
+  509  git add dockerfile01 
+  510  git commit
+  511  git commit -c "Final"
+  512  git commit -m "Final"
+  513  git push origin master
+  514  apt remove tomcat9
+  515  /ect/mkdir project
+  516  /mkdir /etc/project
+  517  mkdir /etc/project
+  518  cd /etc/
+  519  ll
+  520  chown 777 project/
+  521  ll
+  522  cd /home/student/
+  523  nano test.yaml
+  524  ll
+  525  cd dockerfiles/
+  526  cd D
+  527  ll
+  528  cd DevopsStudy/
+  529  ll
+  530  nano test.yml
+  531  apt update -y
+  532  apt install docker.io
+  533  wget https://github.com/docker/compose/releases/download/v2.9.0/docker-compose-linux-x86_64
+  534  mv docker-compose-linux-x86_64 /bin/docker-compose
+  535  chmod +x /bin/docker-compose 
+  536  docker-compose --version
+  537  pwd
+  538  cd /home/student/
+  539  cd dockerfiles/DevopsStudy/
+  540  nano docker-compose.yml
+  541  docker image
+  542  docker images
+  543  history
+  544  docker container prune
+  545  docker images
+  546  docker ps
+  547  cd dockerfiles/DevopsStudy/
+  548  history
+  549  docker build -t boxfuse -<dockerfile01
+  550  docker ps
+  551  nano dockerfile01
+  552  docker
+  553  docker build -it boxfuse -<dockerfile01
+  554  docker build -i -t boxfuse -<dockerfile01
+  555  history
+  556  docker run -d -p 80:8080 boxfuse
+  557  docker ps
+  558   /bin/bash
+  559  clerar
+  560  clear
+  561  docker ps
+  562  docker exec -i -t 800bfe0e5b1c /bin/bash 
+  563  docker images
+  564  nano dockerfile01
+  565  cp  dockerfile01 dockerfile02
+  566  ll
+  567  rm -f dockerfile01.save 
+  568  ll
+  569  nano dockerfile02
+  570  docker ps
+  571  docker stop 800bfe0e5b1c
+  572  docker build -i -t boxfuse -<dockerfile02
+  573  docker build -t boxfuse -<dockerfile02
+  574  docker images
+  575  nano dockerfile02
+  576  docker ps
+  577  history
+  578  nano dockerfile02
+  579  docker build -t boxfuse -<dockerfile02
+  580  docker run -d -p 80:8080 boxfuse
+  581  nano dockerfile02
+  582  docker run -d -p 80:8080 boxfuse
+  583  docker build -t boxfuse -<dockerfile02
+  584  docker run -d -p 80:8080 boxfuse
+  585  nano dockerfile02
+  586  docker build -t boxfuse -<dockerfile02
+  587  docker run -d -p 80:8080 boxfuse
+  588  nano dockerfile02 
+  589  docker build -t boxfuse -<dockerfile02
+  590  docker run -d -p 80:8080 boxfuse
+  591  nano dockerfile02 
+  592  docker build -t boxfuse -<dockerfile02
+  593  docker run -d -p 80:8080 boxfuse
+  594  docker ps
+  595  history
+  596  nano dockerfile01
+  597  nano dockerfile02
+  598  docker build -t boxfuse -<dockerfile02
+  599  docker run -d -p 80:8080 boxfuse
+  600  docker ps
+  601  docker run -d -p 80:8080 boxfuse
+  602  docker ps
+  603  clear
+  604  docker ps
+  605  docker run -d -p 80:8080 boxfuse
+  606  docker logs efb70a6ad1c3dc6caa61b16835011f11dce079d23823234b014ce359c60115a2
+  607  nano dockerfile02
+  608  nano dockerfile01
+  609  nano dockerfile02
+  610  docker ps
+  611  docker build -t boxfuse -<dockerfile02
+  612  docker images
+  613  nano dockerfile02
+  614  docker build -t boxfuse -<dockerfile02
+  615  docker ps
+  616  docker run -d -p 80:8080 boxfuse
+  617  docker ps
+  618  docker images
+  619  env
+  620  cd /usr/local/
+  621  ll
+  622  apt install openjdk
+  623  apt install open-jdk
+  624  apt install default-jdk
+  625  env
+  626  echo $JAVA_HOME
+  627  cd /usr/lib
+  628  ll
+  629  cd jvm/
+  630  ll
+  631  cd openjdk-11/
+  632  ll
+  633  ln
+  634  cd ..
+  635  nano  default-java
+  636  ll
+  637  ln --help
+  638  ll
+  639  apt remove default-jdk
+  640  ll
+  641  cd openjdk-11/
+  642  ll
+  643  cd ...
+  644  cd ..
+  645  rm -f jvm
+  646  rm -f -d jvm
+  647  rm -f -d -r jvm
+  648  ll
+  649  cd jvm
+  650  apt install default-jdk
+  651  ll
+  652  cd jvm
+  653  apt install default-jdk -v
+  654  cd /bin
+  655  cd jav
+  656  cd java
+  657  ll
+  658  type -p java
+  659  type
+  660  man type
+  661  type --help
+  662  cd ..
+  663  type -p java
+  664  type  java
+  665  type -P java
+  666  cd /usr/bin/
+  667  ll
+  668  ls -l java
+  669  echo $JAVA_HOME
+  670  whereis java
+  671  ls -l java
+  672  cd type -p java
+  673  cd /etc/alternatives/
+  674  ll
+  675  cd /usr/lib/jvm
+  676  cd /usr/lib/jvm/
+  677  java -version
+  678  apt install default-jdk 
+  679  sudo apt autoremove -y
+  680  apt remove  default-jdk 
+  681  sudo apt autoremove -y
+  682  apt install default-jdk 
+  683  java --version
+  684  javac --version
+  685  cd /home/student/dockerfiles/DevopsStudy/
+  686  ll
+  687  nano Dockerfile 
+  688  nano dockerfile0
+  689  nano dockerfile01
+  690  ll
+  691  cd dockerfiles/DevopsStudy/
+  692  ll
+  693  git pull
+  694  ll
+  695  rm -f -r DZ6
+  696  rm -f -r DZ7
+  697  ll
+  698  cd dz7/
+  699  ll
+  700  docker-compose . up
+  701  history
+  702  docker-compose  up
+  703  ll
+  704  cd docker-compose.yml 
+  705  nano docker-compose.yml 
+  706  cd ..
+  707  git pull
+  708  cd dz7
+  709  docker-compose  up
+  710  cd ..
+  711  git pull
+  712  cd dz7/
+  713  docker-compose  up
+  714  cd ..
+  715  git pull
+  716  cd dz7
+  717  docker-compose  up
+  718  cd ..
+  719  git pull
+  720  cd dz7
+  721  docker-compose  up
+  722  cd ..
+  723  git pull
+  724  cd dz7
+  725  docker-compose  up
+  726  apt install -y wget
+  727  curl
+  728  cd ..
+  729  git pull
+  730  cd dz7
+  731  docker-compose  up
+  732  apt install git
+  733  cd ..
+  734  git pull
+  735  cd dz7
+  736  docker-compose  up
+  737  cd ..
+  738  git pull
+  739  cd dz7
+  740  docker-compose  up
+  741  docker-compose ps
+  742  docker-compose  up
+  743  docker-compose ps
+  744  docker-compose run dz7-appdata-1  
+  745  docker-compose run appdata
+  746  cd ..
+  747  git pull
+  748  cd dz7
+  749  docker-compose  up
+  750  docker-compose run appdata
+  751  cd ..
+  752  git pull
+  753  cd dz7
+  754  docker-compose  up
+  755  cd ..
+  756  git pull
+  757  cd dz7
+  758  docker-compose  up
+  759  cd /home/student/dockerfiles/DevopsStudy/
+  760  git pull
+  761  cd dz7
+  762  docker-compose up
+  763  ll
+  764  docker-compose up
+  765  cd ..
+  766  git pull
+  767  git cd dz7
+  768  cd dz7
+  769  docker-compose up
+  770  cd ..
+  771  git pull
+  772  cd dz7
+  773  docker-compose up
+  774  cd ..
+  775  ccd D
+  776  cd DevopsStudy/
+  777  git pull
+  778  cd dz7
+  779  docker-compose up
+  780  cd ..
+  781  git pull
+  782  cd dz7/
+  783  docker-compose up
+  784  cd ..
+  785  ;ll
+  786  ll
+  787  cp -a dockerfile02 /dz7
+  788  cd dz7
+  789  ll
+  790  cd ,,
+  791  cd ..
+  792  cp -v dockerfile02 /dz7
+  793  cp -v dockerfile02 dz7/dockerfiles/
+  794  cd dz7
+  795  ll
+  796  cd dockerfiles/
+  797  ll
+  798  mv dockerfile02 dockerfile01
+  799  nano dockerfile01
+  800  cd ..
+  801  ll
+  802  rm -f docker-compose.yml.save 
+  803  nano docker-compose.yml 
+  804  cd dz7/
+  805  nano docker-compose.yml 
+  806  nano dockerfiles/
+  807  nano dockerfiles/dockerfile01 
+  808  rm -f dockerfiles/dockerfile01 
+  809  cd dockerfiles/
+  810  touch doeckerfile01
+  811  nano doeckerfile01 
+  812  ll
+  813  rm -f .doeckerfile01.swp 
+  814  nano doeckerfile01 
+  815  nano docker-compose.yml 
+  816  ll
+  817  cd ..
+  818  nano docker-compose.yml 
+  819  nano docker-compose.yml c
+  820  nano docker-compose.yml cclear
+  821  ll
+  822  rm -f .c
+  823  ll
+  824  rm -f .c.swp 
+  825  rm -f .cclear.swp 
+  826  cd dockerfiles/
+  827  ll
+  828  mv doeckerfile01 dockerfile01
+  829  nano dockerfile01 
+  830  ll
+  831  cd ..
+  832  ll
+  833  nano docker-compose.yml 
+  834  docker-compose up -d
+  835  docker ps
+  836  docker-compose down
+  837  nano docker-compose.yml 
+  838  docker-compose up 
+  839  nano docker-compose.yml 
+  840  docker-compose up 
+  841  history
+  842  docker-compose run appdata
+  843  docker-compose ps
+  844  history
+  845  cd //
+  846  find -name java
+  847  cd /home/student/dockerfiles/DevopsStudy/dz7
+  848  nano docker-compose.yml 
+  849  docker-compose -h
+  850  docker-compose -rm
+  851  docker-compose rm
+  852  docker-compose images
+  853  docker-compose up
+  854  docker-compose ps
+  855  docker-compose run appdata
+  856  cd dockerfiles/
+  857  docker-compose imagesclear
+  858  clear
+  859  nano dockerfile01 
+  860  cd ..
+  861  nano docker-compose.yml 
+  862  docker-compose up
+  863  ll
+  864  nano docker-compose.yml 
+  865  docker-compose up
+  866  nano docker-compose.yml 
+  867  docker-compose up
+  868  ll
+  869  docker-compose ps
+  870  docker-compose run Fappdata
+  871  docker-compose ruappdata
+  872  docker-compose run appdata
+  873  ll
+  874  cd docker
+  875  cd dockerfiles/
+  876  ll
+  877  nano dockerfile01 
+  878  cd ..
+  879  docker-compose rm
+  880  docker-compose ps
+  881  ll
+  882  cd dz7
+  883  docker-compose ps
+  884  docker-compose rm
+  885  docker-compose up
+  886  docker-compose run appdata
+  887  nano docker-compose.yml 
+  888  ll
+  889  cd dockerfiles/
+  890  mv dockerfile01 Dockerfile
+  891  cd ..
+  892  calear
+  893  clear
+  894  ll
+  895  docker-compose up
+  896  docker-compose ps
+  897  docker-compose up -d
+  898  docker-compose ps
+  899  ll
+  900  nano docker-compose.yml 
+  901  netstat -a
+  902  nano docker-compose.yml 
+  903  docker-compose down
+  904  docker-compose up -d
+  905  netstat -a
+  906  ll
+  907  docker-compose 
+  908  docker-compose ps
+  909  docker-compose exec web
+  910  docker-compose exec web 
+  911  docker-compose exec web /bin/sh
+  912  docker-compose -it exec web /bin/sh
+  913  docker-compose  exec  -itweb /bin/sh
+  914  docker-compose  exec  -it web /bin/sh
+  915  cd ..
+  916  git commit -m final
+  917  docker push
+  918  docker push origin master
+  919  docker push origin
+  920  docker push master
+  921  docker push main
+  922  docker status
+  923  git status
+  924  git commit -a
+  925  git add .
+  926  git status
+  927  git commit -a
+  928  git push
+  929  docker 
+  930  docker-compose images
+  931  docker-compose image
+  932  docker-compose ps
+  933  cd dz7
+  934  docker-compose image
+  935  docker-compose ps
+  936  docker-compose images
+  937  docker-compose  exec  -it web /bin/sh
+  938  docker-compose images
+  939  docker-compose  exec  -it web /bin/sh
+  940  ll
+  941  nano docker-compose.yml 
+  942  clear
+  943  ll
+  944  docker-compose down
+  945  nano docker-compose.yml 
+  946  docker-compose down
+  947  docker-compose up
+  948  nano docker-compose.yml 
+  949  docker-compose up
+  950  nano docker-compose.yml 
+  951  docker-compose up
+  952  nano docker-compose.yml 
+  953  git status
+  954  git checkout docker-compose.yml 
+  955  nano docker-compose.yml 
+  956  docker-compose up
+  957  docker-compose down
+  958  docker-compose ps
+  959  docker-compose up -d
+  960  docker-compose ps
+  961  docker-compose images
+  962  docker-compose down -rmi
+  963  docker-compose down --rmi
+  964  docker-compose images
+  965  man docker-compose images 
+  966  man docker-compose im
+  967  docker image prune -a
+  968  docker-compose images
+  969  docker-compose images --rm
+  970  docker-compose images --r
+  971  docker-compose images 
+  972  docker-compose images -rmi
+  973  docker-compose images --rmi
+  974  docker-compos
+  975  docker-compose down --rmi -a
+  976  docker-compose down --rmi
+  977  docker-compose down --rmi a
+  978  docker-compose down --rmi all
+  979  docker-compose images
+  980  docker-compose images clear
+  981  clear
+  982  ll
+  983  docker-compose up -d
+  984  docker-compose images c
+  985  docker-compose images
+  986  nano docker-compose.yml 
+  987  docker-compose up -d
+  988  docker-compose images
+  989  docker-compose ps
+  990  nano docker-compose.yml 
+  991  history
+  992  docker-compose  exec  -it web /bin/sh
+  993  docker-compose images
+  994  clear
+  995  docker ps
+  996  docker 6993fcd972cd -ls
+  997  docker 6993fcd972cd 
+  998  docker 6993fcd972cd ls
+  999  docker ls 6993fcd972cd
+ 1000  docker --help
+ 1001  docker container ls
+ 1002  docker df -v
+ 1003  docker du -v
+ 1004  docker status
+ 1005  git status
+ 1006  git add docker-compose.yml 
+ 1007  git commit -m FinalApline
+ 1008  git status
+ 1009  nano docker-compose.yml 
+ 1010  git commit -m FinalApline01
+ 1011  git add docker-compose.yml 
+ 1012  git commit -m FinalApline01
+ 1013  git status
+ 1014  git push
+ 1015  history
+ 1016  ll
+ 1017  cd dockerfiles/
+ 1018  ll
+ 1019  git pull
+ 1020  ll
+ 1021  cd DevopsStudy/
+ 1022  ll
+ 1023  git pull
+ 1024  ll
+ 1025  cd dz6
+ 1026  history >>histry.txt

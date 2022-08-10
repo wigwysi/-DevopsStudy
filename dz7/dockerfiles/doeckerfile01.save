@@ -1,0 +1,22 @@
+ UN apt update
+ RUN apt install -y default-jdk
+ RUN apt install -y wget
+ RUN mkdir -p  /etc/projects
+ WORKDIR /etc/projects
+ RUN wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.tar.gz
+ RUN tar -xvf apache-tomcat-9.0.65.tar.gz   
+ RUN mv apache-tomcat-9.0.65 tomcat9
+ RUN apt install -y maven
+ RUN apt install -y git
+ RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+ WORKDIR boxfuse-sample-java-war-hello
+ RUN mvn package -e
+ WORKDIR target
+ RUN cp -r hello-1.0 /etc/projects/tomcat9/webapps/
+ RUN cp hello-1.0.war /etc/projects/tomcat9/webapps/
+ ENV CATALINA_HOME /etc/projects/tomcat9
+ ENV PATH $PATH:$CATALINA_HOME/bin
+# RUN mkdir /usr/share/tomcat9/conf
+# RUN ln -s /etc/tomcat9/server.xml /usr/share/tomcat9/conf/server.xml
+ EXPOSE 8080
+ CMD ["/etc/projects/tomcat9/bin/catalina.sh", "run"]
