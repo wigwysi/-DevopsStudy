@@ -1,0 +1,16 @@
+---
+- name: web server configuration
+  hosts: prod
+  become: yes
+
+  roles:
+    - common
+    - prod
+
+- name: Application Distribution
+  hosts: workbench
+  become: yes
+
+  roles:
+    - common
+    - workbench
