@@ -1,4 +1,4 @@
 ---
 # tasks file for prod
--name Besure tomcat is present
+- name: Ensure tomcat is present
   apt: name=tomcat9 state=present

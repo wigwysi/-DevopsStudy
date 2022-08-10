@@ -13,10 +13,7 @@
 - name: Maven compile project
   command: mvn -f "{{project_folder}}"/pom.xml package
 
-- name: Transfer file from workbench to local
-    synchronize:
-      src: "{{project_folder}}"/target/*.war 
-      dest: "{{path_on_prod}}"
-      mode: pull
-    delegate_to: role="{{prod}}" #var_from_ansible_hosts_cfg
+- name: Transfer file from workbench to prod
+  synchronize: src="{{project_folder}}"/target/*.war dest="{{path_on_prod}}" mode=pull
+  delegate_to: 62.84.115.102
   
