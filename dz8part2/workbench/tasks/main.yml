@@ -1,0 +1,18 @@
+---
+# tasks file for workbench 
+- name: Build images from docker-compose
+  docker_compose:
+    project_src: ./
+  register: output
+
+- debug:
+  var: output
+
+- name: Stop services
+  docker_compose:
+    project_src ./
+  build: no
+  stopped: yes
+  register: output
+
+- debug: output  
